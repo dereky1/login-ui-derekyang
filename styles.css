@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    height:100vh;
+    width:100vw;
+    background-color:f5f5f5;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.ui-container{
+    background-color: white;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px rgba(148,148,148, .20);
+    display: flex;
+    flex-flow: column;
+    width:50%;
+    height: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.ui-container > input {
+    width: 50%;
+}
+
+
+#pass, #user{
+    border: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+#pass::placeholder, #user::placeholder{
+    color:lightgray;
+}
+
+
+input[type="submit"] {
+    background-color: dodgerblue;
+    box-shadow: 2px 2px 5px 3px rgba(196,213,255, .9);
+    border: 0;
+    height: 10%;
+    border-radius: 15px;
+    color: white;
+    box-sizing: content-box;
+}
