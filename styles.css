@@ -23,6 +23,10 @@ body{
     min-height: 300px;
 }
 
+.ui-container:hover{
+    box-shadow: 10px 10px 10px 10px rgba(23, 90, 233, 0.76);
+}
+
 .ui-container > input {
     width: 50%;
 }
@@ -39,12 +43,21 @@ body{
 }
 
 
-input[type="submit"] {
+button {
     background-color: dodgerblue;
     box-shadow: 2px 2px 5px 3px rgba(196,213,255, .9);
     border: 0;
     height: 10%;
+    width: 50%;
     border-radius: 15px;
     color: white;
     box-sizing: content-box;
+}
+
+button:hover {
+    background-color: rgba(23, 90, 233, 0.76);
+}
+
+button:active {
+    background-color: rgb(23, 90, 233);
 }
